@@ -1,0 +1,507 @@
+%-------------------------
+% Resume in Latex
+% Author : Thibaut Tebi
+% Based off of: 
+% License : UG
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape THIBAUT KWADZO TEBI} \\ \vspace{1pt}
+   $|$ Date of Birth: 15/12/1997 $|$  Nationality: Ghanaian $|$ Address: Anloga-Lashibi,Ghana$|$ \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +233245364225 ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{thibauttebi@gmail.com $|$ thibaut.tebi@azubiafrica.org}} ~ 
+    \href{https://linkedin.com/in//}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/thibaut-tebi}}  ~
+  %  \href{https://github.com/}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/thibaut-tebi}}
+    \vspace{-8pt}
+\end{center}
+   %-----------EXPERIENCE-----------
+\section{Objective }
+    \resumeItem{An experienced research and teaching assistant with great analytical skills and in-depth knowledge of science and engineering. Aggressively seeking a graduate position to advance my knowledge of Biomedical engineering. This is towards my long-term goal of mentoring the next generation through the development of solutions that use modern technologies to leverage the current healthcare delivery in Ghana and beyond.}
+    
+   % Highly resourceful and analytical individual with extensive background in science and engineering. Seeking admission to Master's in Bionics engineering to deepen my knowledge and expertise in the field of Biorobotics with the aim of advancing and developing innovative solutions for healthcare challenges.} 
+%     A strong team player with outstanding problem-solving abilities.
+% seeking to pursue a graduate program in medical physics to enhance knowledge and contribute to the advancement of healthcare delivery through the use of innovative technologies.}
+  
+    \resumeItemListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Bachelor of Science in Engineering (Biomedical)}{September 2017 -- November 2021}
+      {University of Ghana}  {Accra, Greater Accra}               %[\url{https://www.ug.edu.gh/ }]}        
+      \resumeItem{ Grade:  Second Class Upper Honour (FGPA:3.12/4)} 
+  %      \small{\item{
+  %    [\url{https://www.ug.edu.gh/ }]
+%     \resumeItem{Related Coursework}
+%{[• General Physics, Bioinstrumentation,
+%Medical Imaging, Biomedical Engineering Systems, Digital Circuits, Electronics, and Applied
+%electricity • Mathematics (Algebra, Calculus, Differential Equations, Numerical Methods, Statistics)
+%• Programming ( C programming, Computational tools( MATLAB and Python)]}
+     \resumeSubheading
+     {Data Analytics }{November 2022 -- August 2023}
+     {AZUBI Africa} {Accra, Greater Accra}
+      \small{\item{
+      [\url{https://www.azubiafrica.org/ }]
+     \small{\item{
+   \textbf{Professional Training:} {Statistical Analysis, \textbf{Programming}( python, SQL), Machine/Deep learning, Databases, Communication and Presentation Skills, Data story telling, PowerBI and Excel.}
+  %    \resumeItem{Grade: Second Class Upper Division(CGPA:3.07/4)}
+  %     \resumeSubheading
+ %     {General Science }{August 2014 -- June 2017}
+ %     {Anlo Senior High School}{Anloga, Volta Region}
+ %     \resumeItem{WASSCE Grade: 10}
+%  \resumeSubHeadingListEnd
+  
+%------RELEVANT COURSEWORK-------
+%\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+       % \begin{multicols}{4}
+       %     \begin{itemize}[itemsep=-5pt, parsep=3pt]
+        %        \item\small Mechanics I and II
+         %       \item Biomechanics
+          %     \item Biomedical Engineering system
+           %     \item Design and selection of Biomaterials 
+            %    \item Calculus I and II, Differential Equation, 
+             %   \item Computational tools(MATLAB)
+              %  \item Computer Programming(C)
+               % \item Physics
+                %\item Design of Mechanical System 
+                %\item Electronics, Digital Circuit 
+                %\item Statistics
+                %\item Human Biology
+                %\item Chemistry 
+        
+            %\end{itemize}
+        %\end{multicols}
+        \vspace*{2.0\multicolsep}
+    \resumeSubHeadingListEnd
+          %-----------EXPERIENCE-----------
+\section{Summary Skills}
+  
+ %    \resumeItemListStart
+  %   \resumeItem{Python, SQL, MATLAB, C-programming, Embedded C, Solid-Edge, Simi aktisys software.}
+  %  \resumeItemListEnd
+%    section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+ \textbf{Computational Skills:}{ Python $|$ SQL $|$ Power BI$|$ MATLAB $|$ C-programming $|$ CAD (Solid-Edge) $|$ Proteus $|$ LabVIEW$|$} \\
+%\textbf{Computer Software:}{ Computer-Aided Design (Solid-Edge) $|$ Microsoft suite $|$ Labview $|$ Proteus} \\
+%      \textbf{Soft Skills:}{ Teamwork $|$ Teaching $|$ Research $|$ leadership $|$ Volunteer $|$ Time Management $|$} \\
+      \textbf{Language Skills:}{ English(Proficient) $|$ French (Intermediate) $|$ Ewe(Proficient) $|$} \\
+    }}
+\end{itemize}
+\vspace{-16pt}
+
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+    {Teaching Assistant} {October 2021 --August 2022}
+      {University of Ghana, Biomedical Engineering Department}{Accra,Greater-Accra}
+      \resumeItemListStart
+        \resumeItem{Assisted Professors and instructed undergraduate students on medical imaging and Differential Equation, Engineering Mechanical systems and Bio-instrumentation.}
+%        \resumeItem{Assisted Professors with research-related activities in Engineering design, Biomechanics and Bioinstrumentation.}
+        \resumeItem{Prepared lecture slides, conducted tutorials and Lab sections for third and final year students.}
+       %\resumeItem{Assisted Professors in writing research manuscripts. }
+        \resumeItem{Assisted Professors in grading student exercises, tests and examinations.}
+       % \resumeItem{Designed and 3D print parts to repair broken laboratory equipment.}
+%        \resumeItem{Organized Bio-instrumentation Labs and introduced third year students to Arduino kits,Arduino programming, and computer simulations using LabVIEW and Proteus.}
+      \resumeItemListEnd
+      
+ %   \resumeSubheading
+%    {High school Teacher(Volunteer)} {May --August 2019}
+ %     {Anlo Senior High School.}{Anloga,Volta Region}
+ %     \resumeItemListStart
+ %       \resumeItem{Taught thirty(30) senior year students subjects such as mathematics, Physics and Chemistry.} {May --August 2019}
+ %       \resumeItem{Trained five(5) contestants for the National Science and Maths Quiz (NSMQ) competition.}
+  %      \resumeItem{Organized laboratory training for senior year students to investigate basic scientific concepts in Chemistry and physics.}
+%        \resumeItem{Maintained accurate records of pupils’ progress and development.}
+%         \resumeItem{Mentored and assist  twenty(20) science students in their university program selections and application.}
+%\resumeItemListEnd
+ \resumeSubheading
+      { Medical Records Assistant}        {June 2018 -- September 2021}
+      {University Hospital, Legon}{Accra, Greater-Accra}
+      \resumeItemListStart
+        \resumeItem{Create and Customize patient's medical folders using electronic health record (EHR) system}
+        \resumeItem{Adequately manage confidential medical records of patients for the hospital.}
+%        \resumeItem{Offered and explained the hospital's policies to patients and visitors.}
+%        \resumeItem{Schedule patients weekly for consultation with specialists.}
+    \resumeItemListEnd
+     \resumeSubheading
+      {Biomedical Engineer Intern}        {June -- August 2019}
+      {University Hospital, Legon}{Accra, Greater-Accra}
+      \resumeItemListStart
+        \resumeItem{Provided technical support and safety operations for biomedical equipment including X-ray, CT, MRI machines.}
+%         \resumeItem{Troubleshot biomedical equipment.}
+        \resumeItem{Entered patient medical data into the hospital's electronic health record (EHR) system.}
+          
+        
+    \resumeItemListEnd
+    
+        
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------EXPERIENCE-----------
+%\section{Work Experience}
+%  \resumeSubHeadingListStart
+
+%  \resumeSubheading
+%      { Medical Records Assistant}        {June 2018 -- September 2021}
+%      {University Hospital}{Accra, Greater-Accra}
+%      \resumeItemListStart
+ %       \resumeItem{Customize and mobilize patients’ folders for smooth processing.}
+%        \resumeItem{Adequately manage confidential medical records of patients for the hospital.}
+%        \resumeItem{Offered and explained the hospital's policies to patients and visitors.}
+ %       \resumeItem{Schedule patients weekly for consultation.}
+ %   \resumeItemListEnd
+    
+%    \resumeSubheading
+%      {Biomedical Engineer Intern}        {June -- August 2019}
+%      {University Hospital}{Accra, Greater-Accra}
+%      \resumeItemListStart
+ %       \resumeItem{Provided technical support and supervised the safety operations for biomedical equipment.}
+ %       \resumeItem{Administered data entry of patient medical laboratory results into the individual systems of the units.}
+ %          \resumeItem{Troubleshoot biomedical equipment.}
+        
+ %   \resumeItemListEnd
+    
+ % \resumeSubHeadingListEnd
+%\vspace{-16pt}
+%-----------EXPERIENCE-----------
+\section{Laboratory Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+    { Laboratory and Research Assistant} {October 2021 --Present}
+      {University of Ghana, Biomedical Engineering Department}{Accra, Greater-Accra}
+      \resumeItemListStart
+      %  \resumeItem{Created data visualizations using  Matplotlib, Seaborn, and Power BI and communicate insights to the labs.}
+     %  \resumeItem{  Conducted research on the integration of robotics and biomechanics to enhance healthcare}
+       
+       \resumeItem{ Conducted literature review, assisted with data collection and analysis, and contributed to project reports}
+%      \resumeItem {Collected and evaluated kinematics data using Simi Aktisys software in biomechanics lab}
+    \resumeItem{Designed and 3D printed parts to repair broken laboratory equipment in bioinstrumentation Lab..}
+    \resumeItem{Analysed data, process signal using MATLAB and Python}
+      
+     
+      \resumeItemListEnd
+       \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+
+ %-----------EXPERIENCE-----------
+\section{Certification}
+  
+     \resumeItemListStart
+     \resumeItem{Machine learning with Python (IBM certificate).}
+     [\url{https://www.credly.com/badges/62470371-fbf7-4621-a1d5-c3de722c9895/public_url }]
+      \resumeItem{Python for Data Science, AI and Development(IBM certificate).}[\url{https://www.credly.com/badges/f0f17053-9e51-4f96-b711-8bfe00218f69/public_url}] 
+      \resumeItem{Deep Learning with PyTorch : Object Localization.}
+     [\url{https://www.coursera.org/account/accomplishments/certificate/JJCXK62SS66L}]
+     \resumeItem{AWS Machine Learning from Amazon Web Services (AWS Certificate).}[\url{https://coursera.org/share/5fac1241fe53b7b070c15fde163c8b37}]
+     \resumeItem{Statement of Accomplishment by Datacamp for successfully completing Intermediate SQL.}[\url{https://rb.gy/mjis05}] 
+      \resumeItemListEnd
+%-----------PROJECTS-----------
+\section{Projects(Research/Design)}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{Research} $|$ \emph{Deep Learning(DL)}}{January 2023--Present}
+          \resumeItemListStart
+            \resumeItem{  Breast cancer survival prediction using Deep learning}
+            
+\textbf{supervisor:}{ Dr.Samuel Kojo Kwofie} \\
+\resumeItemListEnd
+          \vspace{-13pt}
+    \resumeProjectHeading
+          {\textbf{Research} $|$ \emph{Python (Matplotlib,Pandas),ECG, ECHO}}{March 2022--Present}
+          \resumeItemListStart
+            \resumeItem{ Evaluation of Cardiac Structure and Function among Student-Athletes at university of Ghana.}
+            
+     \textbf{supervisor:}{ Dr.Richard Dey} \\
+            
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Thesis} $|$ \emph{CAD(Solide-edge)}}{April--November 2021}
+          \resumeItemListStart
+            \resumeItem{ Computer-aided design of home-based assistive physical training device for upper limb monoplegia post-stroke patients.(Under review for publication)} 
+        
+             \textbf{supervisor:}{ Dr. Jocelyn K. Brobbey} \\
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Course projects} $|$ \emph{Proteus,TinkerCAD,Arduino, Solid-edge, Simi Aktisys software}}{March--November 2021}
+          \resumeItemListStart
+            \resumeItem{Design of an Integrated Diagnostic Device for measuring vital signs at the hospital.} [\url{https://rb.gy/lrdvue}]
+             \resumeItem{Design of a Fully Automated Non-Contact Infrared Thermometer.} [\url{https://rb.gy/lrdvue}]
+             \resumeItem{ Quantitative video motion (gait) analysis.} [\url{https://rb.gy/lrdvue}]
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{Research Projects(Remote)} }{March 2019--June 2020}
+          \resumeItemListStart
+            \resumeItem{Finding cost-effective designs of ventilators, personal protective equipment (PPEs) and resuscitation devices needed in low-resource settings in Ghana and Michigan.(Collaborated with students from University of Michigan, USA, and students from University of Ghana). }
+             
+             \textbf{supervisor:}{ Professor Elsie Effah Kaufmann} \\
+            
+%             \resumeItem{Review article on Pancreas and Biomedical Engineering contributions to enhance its structure and function (\url{shorturl.at/abwFY} )}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+ %-----------EXPERIENCE-----------
+%\section{Computational and Statistical Skills}
+  
+   %  \resumeItemListStart
+   %  \resumeItem{Data Analysis with Pandas, Matplotlib (Python), Excel, SQL}
+   %   \resumeItem{Statistical analysis using python and MATLAB}
+   %  \resumeItem{Basic Programming with python, MATLAB}
+   %  \resumeItem{Computer Aided Design using Solid-Work }
+%     \resumeItem{Finite Element Analysis(FEA) Using Solid-Work}
+   %  \resumeItem{Basic skills in using Proteus and LabVIEW software for circuit simulation}
+     
+%     \resumeItemListEnd
+%\vspace{-16pt}      
+
+
+      %-----------EXPERIENCE-----------
+\section{Achievement/Award}
+  
+     \resumeItemListStart
+     \resumeItem{ Agricultural Manufacturing Group Limited (AMG) grant:  3,300 dollars innovation fund-2021}
+    \resumeItem{ University of Ghana scholarship award: Three-years Full-tuition scholarship Award  and part-time Job for brilliant but needy student -2018-2021}
+    \resumeItem{Ghana secretariat district Scholarship award: One-year partial scholarship  for brilliant but needy students-2019}
+    \resumeItemListEnd
+ %-----------EXPERIENCE-----------
+\section{Professional Society and Affiliations }
+  
+     \resumeItemListStart
+     \resumeItem{AI Ghana (Mentee)} 
+     \resumeItem{ University of Ghana Business School Innovation and Incubation Hub(UGBS-IIH)}
+     \resumeItem{Black In Artificial Intelligence (AI)} 
+     \resumeItem{National Society of Black Engineers (NSBE)}
+     \resumeItem{Engineering Student Association of University of Ghana(ESUG)}
+      \resumeItemListEnd
+    %-----------PROGRAMMING SKILLS-----------
+%\section{Technical Skills}
+% \begin{itemize}[leftmargin=0.15in, label={}]
+%    \small{\item{
+% \textbf{Computer Languages}{: Python, SQL, MATLAB(Intermediate), C++ (intermediate) } \\
+%\textbf{Computer Software}{: Computer Aided Design (Solid-Edge), Microsoft suite, Labview, Proteus} \\
+ %     \textbf{Soft Skills}{: Teamwork, Teaching,Research, %Leadership,Time management,Volunteer,  Project management.} \\
+   % }}
+%\end{itemize}
+%\vspace{-16pt}
+
+          %-----------EXPERIENCE-----------
+%\section{Other Skills}
+  
+ %    \resumeItemListStart
+%     \resumeItem{Teamwork,Teaching,Research, leadership, Volunteer, Time Management,Data analysis, Prototyping, 3D printing. }
+%    \resumeItemListEnd
+    
+
+%-----------EXPERIENCE-----------
+\section{Volunteer Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+   {Raised funds for the foundation to embark on annual projects.}     {December 2018 --Present}
+      {Child Eye Foundation, CEF, Ghana}{Accra, Greater-Accra}
+%      \resumeItemListStart
+ %       \resumeItem{Helped in raising funds for the foundation to embark on projects.}
+%        \resumeItem{Helped in donating to orphans at the orphanage home.}
+ %       \resumeItem{Helped in planning the foundation’s upcoming projects.}
+       \resumeItemListEnd 
+      \resumeSubheading
+    {{Organize meetings, draft proposals and prepare budgets for the foundation.}} {March 2020 --present}
+      {MMG-Foundation.}{Accra,Greater-Accra}
+ %    \resumeSubheading
+ %   {{Trained grade six (6) students in robotics}} {March 2020 --2021}
+%      {MakersPlace}{Accra,Greater-Accra}
+   \resumeSubheading
+    {{Assisted in providing first-aid during sports and games activities.}} {March 2019 --August 2021}
+      {University of Ghana Red-cross society.}{Accra,Greater-Accra}
+       \resumeSubheading
+    {Evaluated and participated in the digital design of the Vibe Check.} {November 2020 --January  2021}
+      {Prince's Trust International, UK.}{Madina,Greater-Accra}
+       \resumeSubheading
+        {Taught thirty(30) senior students subjects such as mathematics, Physics and Chemistry.} {May --August 2019}
+         {Anlo Senior High School}{ Anloga, Volta Region}
+
+ %     \resumeItemListStart
+ %       \resumeItem{Assisted in providing First aid during sports and games activities.}
+ %       \resumeItem{Participated in community outreach and public relations initiatives.}
+      \resumeItemListEnd
+%-----------EXPERIENCE-----------
+\section{Leadership Experience}
+  \resumeSubHeadingListStart
+     \resumeSubheading
+    {Director of education and  volunteers }   {2020 --Present}
+      {MMG-Foundation, Ghana.}{Accra,Greater-Accra}
+    \resumeSubheading
+   {President of Anlo Senior High School Old Student Association, Legon}     { 2020 --September 2021}
+      {University of Ghana, Legon}{Accra, Greater-Accra}
+   
+        
+%      \resumeItemListStart
+ %       \resumeItem{Helped in raising funds for the foundation to embark on projects.}
+%        \resumeItem{Helped in donating to orphans at the orphanage home.}
+ %       \resumeItem{Helped in planning the foundation’s upcoming projects.}
+       \resumeItemListEnd 
+%\resumeSubheading
+%    {Director of education and  volunteers }   {2020 --Present}
+%      {MMG-Foundation.}{Accra,Greater-Accra}
+ %  \resumeSubheading
+ %   {{Assisted in providing first-aid during sports and games activities.}} {March 2019 --August 2021}
+    %  {University of Ghana Red-cross society.}{Accra,Greater-Accra}
+   %    \resumeSubheading
+  %  {Evaluated and participated in the digital design of the Vibe Check.} {November 2020 --January  2021}
+   %   {Prince's Trust International, UK.}{Madina,Greater-Accra}
+
+ %     \resumeItemListStart
+ %       \resumeItem{Assisted in providing First aid during sports and games activities.}
+ %       \resumeItem{Participated in community outreach and public relations initiatives.}
+      \resumeItemListEnd
+
+        %-----------EXPERIENCE-----------
+%\section{Leadership Experience}
+%\resumeSubHeadingListStart
+%  \resumeSubheading
+ %   {Director of Education} { 2020 --Present }
+ %     {MMG-Foundation} {Accra,Greater-Accra}
+%      \resumeItemListStart
+%        \resumeItem{Directed educational projects of the organization.}
+%        \resumeItem{ Shared information to invite volunteers.} 
+%    \resumeItemListEnd
+    
+%  \resumeSubheading
+ %  {President of ANSOSA, Legon  Chapter } { 2020 -- September 2021}
+ %   {University of Ghana} {Accra,Greater-Accra}
+%    \resumeItemListStart
+%    \resumeItem{Assisted six needy fresh student to win University of Ghana scholarship.}
+%    \resumeItem{Helped new students secure accommodation on campus}
+%    \resumeItem{Organised regular campus meetings to unite forty-five  Anlo High School old students at the university of Ghana.}
+ \resumeItemListEnd 
+    
+   \end{document}
