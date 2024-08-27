@@ -1,0 +1,177 @@
+% !TeX spellcheck = en_GB
+% !TeX program = pdflatex
+%
+% LuxSleek-CV 1.1 LaTeX template
+% Author: Thibaut
+
+\documentclass[11pt, a4paper]{article} 
+\usepackage{fontawesome}
+\usepackage[T1]{fontenc}     % We are using pdfLaTeX,
+\usepackage[utf8]{inputenc}  % hence this preparation
+\usepackage[british]{babel}  
+\usepackage[left = 0mm, right = 0mm, top = 0mm, bottom = 0mm]{geometry}
+\usepackage[stretch = 60, shrink = 20, tracking=true, letterspace=70]{microtype}  
+\usepackage{graphicx}        % To insert pictures
+\usepackage{xcolor}          % To add colour to the document
+\usepackage{marvosym}        % Provides icons for the contact details
+
+\usepackage{enumitem}        % To redefine spacing in lists
+\setlist{parsep = 0pt, topsep = 0pt, partopsep = 1pt, itemsep = 1pt, leftmargin = 6mm}
+
+\usepackage{FiraSans}        % Change this to use any font, but keep it simple
+\renewcommand{\familydefault}{\sfdefault}
+
+\definecolor{cvblue}{HTML}{304263}
+
+%%%%%%% USER COMMAND DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%%%%%
+% These are the real workhorses of this template
+\newcommand{\dates}[1]{\hfill\mbox{\textbf{#1}}} % Bold stuff that doesn’t got broken into lines
+\newcommand{\is}{\par\vskip.5ex plus .4ex} % Item spacing
+\newcommand{\smaller}[1]{{\small$\diamond$\ #1}}
+\newcommand{\headleft}[1]{\vspace*{3ex}\textsc{\textbf{#1}}\par%
+    \vspace*{-1.5ex}\hrulefill\par\vspace*{0.7ex}}
+\newcommand{\headright}[1]{\vspace*{2.5ex}\textsc{\Large\color{cvblue}#1}\par%
+     \vspace*{-2ex}{\color{cvblue}\hrulefill}\par}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[colorlinks = true, urlcolor = white, linkcolor = white]{hyperref}
+
+\begin{document}
+
+% Style definitions -- killing the unnecessary space and adding the skips explicitly
+\setlength{\topskip}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\fboxsep}{0pt}
+\pagestyle{empty}
+\raggedbottom
+
+\begin{minipage}[t]{0.33\textwidth} %% Left column -- outer definition
+%  Left column -- top dark rectangle
+\colorbox{cvblue}{\begin{minipage}[t][5mm][t]{\textwidth}\null\hfill\null\end{minipage}}
+
+\vspace{-.2ex} % Eliminates the small gap
+\colorbox{cvblue!90}{\color{white}  %% LEFT BOX
+\kern0.09\textwidth\relax% Left margin provided explicitly
+\begin{minipage}[t][293mm][t]{0.82\textwidth}
+\raggedright
+\vspace*{2.5ex}
+
+\Huge Thibaut  \textbf{\textsc{TEBI}} \normalsize 
+
+% Centering without extra vertical spacing
+%\null\hfill\includegraphics[width=0.65\textwidth]{oval-transparent.png}\hfill\null
+
+%\vspace*{0.5ex} % Extra space after the picture
+
+\headleft{CONTACT DETAILS }
+\small % To fit more content
+\faMobile\ +33\,748\,\,466235 \\[0.5ex]
+\faEnvelope\ \href{mailto:thibauttebi@gmail.com}{\textcolor{blue}{thibauttebi@gmail.com}} \\[0.1ex]
+\faGithub\ \href{https://www.github.com/thibaut-tebi}{\textcolor{blue}{github.com/thibaut-tebi}} \\[0.1ex]
+\faLinkedin\ \href{https://www.linkedin.com/in/thibaut-tebi}{\textcolor{blue}{linkedin.com/in/thibaut-tebi}} \\[0.1ex]
+\faMapMarker\ Chemin Du Bassin, 13014 Marseille
+\normalsize
+
+\headleft{Education}
+
+\textsc{MSc\&T in Complex Systems Engineering(Biomedical).} \textit{Ecole Centrale Marseille, France}. \dates{2023--2025} \\
+%%% \smaller{Thesis title: \textit{The Effect of Beverage Sugar Content on Their Shelf Life.}} \\
+%%%\smaller{Econometric analysis, survival analysis, panel and time-series models.}
+
+\is
+\textsc{BSC. in  Engineering (Biomedical).}  \textit{University of Ghana, Accra, Ghana}.  \dates{2017--2021} \\
+%%% \smaller{Mathematical modelling, numerical methods, mathematical optimisation.}
+
+
+\headleft{COMPUTATIONAL \& Hard Skills}
+\begin{itemize}
+\item Python, Matlab, SQL, git\& github, LaTeX
+\item COMSOL, Draw.io, FreeCAD, Abaqus, Microsoft office suite.
+\item Data science, Deep/Machine Learning, system design, Signal \& Image processing  
+\item Microscopy,Optics, Microfluidic Device Fabrication, cell biology.
+\end{itemize} 
+
+\headleft{SOFT SKILLS}
+\begin{itemize}
+\item Intellectual Curiosity, team work, Time Management, Quick Adaptation to change.
+%\item MS Word, Excel, PowerPoint
+\end{itemize}
+
+\headleft{CERTIFICATIONS }
+\begin{itemize}
+    \item \href{https://coursera.org/verify/WJXNLUPGNS2Y}{Project Management \textbf{\textcolor{blue}{(Link)}}} \\[0.1ex]
+    \item \href{https://www.credly.com/badges/f0f17053-9e51-4f96-b711-8bfe00218f69/public_url}{Python for Data Science, AI and Development \textbf{\textcolor{blue}{(Link)}}} \\[0.1ex]
+    \item \href{https://www.credly.com/badges/62470371-fbf7-4621-a1d5-c3de722c9895/public_url}{ML with Python \textbf{\textcolor{blue}{(Link)}}} \\[0.1ex]
+    \item \href{https://www.coursera.org/account/accomplishments/certificate/JJCXK62SS66L}{DL with PyTorch \textbf{\textcolor{blue}{(Link)}}} \\[0.1ex]
+    \item \href{https://coursera.org/share/5fac1241fe53b7b070c15fde163c8b37}{AWS Machine Learning \textbf{\textcolor{blue}{(Link)}}} \\[0.1ex]
+    \item \href{https://rb.gy/mjis05}{Intermediate SQL \textbf{\textcolor{blue}{(Link)}}} \\[0.1ex]
+\end{itemize}
+
+\headleft{LANGUAGES}
+%Year of birth: \textbf{1861} \\[0.5ex]
+ \textbf{English}~(Fluent ), \textbf{French}~(B1)
+ 
+\headleft{HACKATHON}
+\item\href{https://www.linkedin.com/posts/thibaut-tebi_stemcontrolai-centurihack2024-teamwork-ugcPost-7213657238798823424-S-Fm?utm_source=combined_share_message&utm_medium=member_desktop}{ CENTURI HACKATHON 2024, Marseille, France \textbf{\textcolor{blue}{(Link)}}} \\[0.1ex]
+
+
+\end{minipage}%
+\kern0.09\textwidth\relax%%Right margin provided explicitly to stretch the colourbox
+}
+\end{minipage}% Right column
+\hskip1.0em% Left margin for the white area
+\begin{minipage}[t]{0.61\textwidth}
+\setlength{\parskip}{0.9ex}% Adds spaces between paragraphs; use \\ to add new lines without this space. Shrink this amount to fit more data vertically
+
+\vspace{2ex}
+
+\headright{Profile}
+As an engineer with a passion for interdisciplinary collaboration, I am eager to deepen my expertise through an internship. My diverse background spans various facets of engineering research and development, with a strong focus on innovative solutions. I am particularly interested in a six(6) months end of studies internship starting from ending of March 2025, focused around the field of \textbf{Biomedical Research and Development}, aiming to fuel my scientific curiosity and contribute significantly to technological progress in healthcare Delivery.
+
+\headright{Professional Experience}
+
+\textbf{\textsc{Bio-Optics  Research engineer, intern}}| \textit{INSTITUT FRESNEL} \dates{2024.06--Present.} \\
+\smaller{Proving feasibility and refining prototypes of wavefront microscopy to enhance its application in bioimaging at very high temperatures using laser heating.} \\
+\smaller{Developing microfluidic chips for heating experiments  of the biological samples and performing image processing and analysis.}
+
+\href{https://www.fresnel.fr/}{\textcolor{blue}{fresnel.fr/}},13397 Marseille Cedex
+
+\is
+\textbf{\textsc{Microbiology Intern}}| \textit{Institut Méditerranéen d'Océanologie} \dates{2024.06--2024.07} \\
+\smaller{Prepared stock solutions and cultured biological samples, including bacteria and archaea, which were subsequently sent to \textbf{Institut Fresnel} for advanced observations and image analysis.} \\
+\href{https://www.mio.osupytheas.fr/fr}{\textcolor{blue}{mio.osupytheas.fr}}, Luminy 13288 Marseille Cedex 9
+
+
+\is
+\textbf{\textsc{Digital Signal Processing (DSP) Intern}}| \textit{IRPHE} \dates{2023.11--2024.02.} \\
+\smaller{Developed and validated a new mathematical algorithm to Analyse biofluidic rhythms such as cutaneous blood perfusion and compared it to existing signal processing methods.} \\
+\href{https://irphe.univ-amu.fr/}{\textcolor{blue}{irphe.univ-amu.fr/}}, 13384 Marseille Cedex 13
+
+\is
+\textbf{\textsc{Teaching \& Research Assistant}}| \textit{School of Engineering, UG } \dates{2021.10--2022.09} \\
+\smaller{Collaborated with faculty to instruct undergraduate students in computational tools and numerical methods and also assisted on various academic projects.} \\
+\href{https://ipo.ug.edu.gh/academics/programmes/biomedical-engineering-bsc}{\textcolor{blue}{engineering.ug.edu.gh/}}, Legon-Accra, Ghana
+
+\is
+\textbf{\textsc{Medical Record Assistant}} | \textit{University Hospital, Legon} \dates{2018.06--2021.8} \\
+\smaller{Managed patient records and ensured accurate data entry into the hospital's Electronic Health Record System (EHRS).} \\
+\href{https://ugmedicalcentre.org/}{\textcolor{blue}{ugmedicalcentre.org/}}, Legon-Accra, Ghana
+
+\headright{Awards/achievements}
+
+\textbf{\textsc{French Government Scholarship}} | \textit{France Embassy, Accra-Ghana } \dates{2023-2025} \\
+\smaller{Fully funded Masters Scholarship for brilliant students to study in France.}
+
+\textbf{\textsc{ Conference Funding }} | \textit{Deep Learning Indaba } \dates{2023.09} \\
+\smaller{Fully funded to attend a ten-day deep learning conference in Accra, Ghana.}
+
+\textbf{\textsc{ start-up Fund}} | \textit{AMG Ghana} \dates{2021.06} \\
+\smaller{Grant of GHC 20,000 (3,300 U.S dollars) for start-up project on development of Uterine Fibroid Test kit.}
+
+\textbf{\textsc{UG scholarship award}} | \textit{University of Ghana, Legon} \dates{2018-2021} \\
+\smaller{Three-years Full-tuition and part-time job scholarship Award for brilliant but needy
+student.}
+\end{minipage}
+
+\end{document}
