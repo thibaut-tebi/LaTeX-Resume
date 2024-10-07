@@ -6,6 +6,8 @@
 
 This repository contains the LaTeX code for my Resume. I have used LaTeX to create a professional and well-formatted document that showcases my skills, qualifications, and experience.
 
+![image](https://github.com/user-attachments/assets/99f1f243-98c4-4e6c-9c6d-51758ed74b77)
+
 ## Usage
 To use this LaTeX Resume template, follow the steps below:
 
